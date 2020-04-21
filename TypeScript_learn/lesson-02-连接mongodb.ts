@@ -20,7 +20,7 @@ mongoose.connect(uri,function(err){
     console.log("mongoDB connect success.");
 });
 
-//4.定义 Schema
+//4.定义 Schema 
 const ArticleSchema = new mongoose.Schema({
     title:String,
     author:String,
